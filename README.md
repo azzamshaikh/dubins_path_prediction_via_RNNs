@@ -37,7 +37,7 @@ The `src` folder contains the script that contains all the code developed for th
 
 ### Generating Data
 
-To run the code, first the dataset needs to be generated. Note: If you don't want to generate a dataset, the dataset is available in the `dataset_and_models` folder.
+To run the code, first the dataset needs to be generated.
 
 To do this, run the `generate_data.py` script. It can be run via an IDE or through the following command:
 ```
@@ -48,7 +48,7 @@ This will create a `.pt` file of the dataset and the dataloader.
 
 ### Training the Model
 
-Once the dataset is generated, the model can be trained. It loads the dataset previously generated. Note: A pretrained model is available in the `dataset_and_models` folder.
+Once the dataset is generated, the model can be trained. It loads the dataset previously generated.
 
 To do this, run the `training_and_testing.py` script. It can be run via an IDE or through the following command:
 ```
